@@ -1,0 +1,38 @@
+.Pcard{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.brandswefocus{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.mainfoter{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.mainfoter li:hover{
+    color: gray;
+}
+.foot{
+    display: flex;
+    flex-flow: column wrap;
+    background-image: linear-gradient(to bottom,white 20%,#A0E9FF 80%);
+}
+ul{
+    list-style-type: none;
+}
+.pc{
+    transition: 0.5s ease-in-out;
+}
+.pc:hover{
+    transform: scale(1.1);
+    Scale: 0.5s ease;
+}
